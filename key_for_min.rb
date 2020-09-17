@@ -17,11 +17,8 @@ def key_for_min_value(name_hash)
   min_key = nil
   
   name_hash.each do |key, value|
-    if value == 1 || value == 10
+    if min_value
       return key
-    else
-    min_key
-    min_value
     end
   end
 end
